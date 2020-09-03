@@ -24,8 +24,15 @@ body {
 
 h1 {
   font-family: 'proxima-nova-bold';
-  font-size: 64px;
+  font-size: 80px;
+  font-color: #ffffff;
 }
+
+h2 {
+  font-family: 'proxima-nova-light';
+  font-size: 24px;
+}
+
 
 a {
   font-family: 'proxima-nova-reg'; 
@@ -34,7 +41,6 @@ a {
 }
 
 .button {
-  border: none; 
   background-color: #757474; 
   margin: 16px; 
   padding: 16px 16px; 
@@ -43,9 +49,18 @@ a {
 .button1 {
   background-color: #757474;
   cursor: pointer;
-  color: #ffffff;
+  color: #ffffff; /*text color*/
   font-family: 'proxima-nova-reg';
   font-size: 24px;
+  width: 300px; 
+  border-style: solid;
+  border-width: 5px;
+  border-color: #757474; 
+}
+
+.button1:hover {
+  color: #ffffff; 
+  background-color: #585858;
 }
 
 .button1 a {
@@ -55,7 +70,7 @@ a {
 #banner {
   background-color: #D00000; 
   text-align: center;
-  padding: 100px 0 100px 0; 
+  padding: 50px 0 50px 0; 
 }
 
 #banner h1 {
