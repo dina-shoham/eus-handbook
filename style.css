@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'proxima-nova-reg';
+  src: url(resources/pn-reg.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'proxima-nova-light';
+  src: url(resources/pn-light.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'proxima-nova-bold';
+  src: url(resources/pn-bold.otf);
+  font-weight: 100;
+}
+
+body {
+  font-family: 'proxima-nova-reg';
+  font-size: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'proxima-nova-bold';
+  font-size: 64px;
+}
+
+a {
+  font-family: 'proxima-nova-reg'; 
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.button {
+  border: none; 
+  background-color: #757474; 
+  margin: 16px; 
+  padding: 16px 16px; 
+}
+
+.button1 {
+  background-color: #757474;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'proxima-nova-reg';
+  font-size: 24px;
+}
+
+.button1 a {
+  color: #ffffff;
+}
+
+#banner {
+  background-color: #D00000; 
+  text-align: center;
+  padding: 100px 0 100px 0; 
+}
+
+#banner h1 {
+  color: #ffffff; 
+}
+
